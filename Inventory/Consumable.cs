@@ -1,6 +1,4 @@
-using System.Runtime;
-
-public class Consumable
+public class Consumable : Item
 {
     public int usesMax;
     public int usesCurrent;
