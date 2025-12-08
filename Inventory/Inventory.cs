@@ -6,6 +6,7 @@ public class Inventory
         for (int i = 0; i < Items.Count; i++)
         {
             
+            Console.WriteLine($"{i + 1}. {Items[i].name}");
         }
     }
 }
