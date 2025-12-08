@@ -1,5 +1,3 @@
-using System.Runtime.CompilerServices;
-
 public class Inventory
 {
     public List<Item> Items = [];

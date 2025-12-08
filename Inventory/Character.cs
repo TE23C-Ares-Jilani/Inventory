@@ -1,3 +1,5 @@
+using System.Security.Cryptography.X509Certificates;
+
 public class Character
 {
     public int hp;
@@ -6,6 +8,8 @@ public class Character
 
     public Character()
     {
+
+        
 
         Backpack.Items.Add(new Weapon() { minDamage = 2, maxDamage = 10, name = "Axe", weight = 10f });
         Backpack.Items.Add(new Consumable() { name = "Health potion", usesMax = 25, weight = 2f });
